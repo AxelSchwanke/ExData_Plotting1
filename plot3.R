@@ -47,9 +47,6 @@ with(data2, {plot(DateTime,Global_active_power, type="n",
              })
 
 
-
-
 # saving as png 480*480 pixels
 dev.copy(png,'figure/plot3.png')
 dev.off()
-
